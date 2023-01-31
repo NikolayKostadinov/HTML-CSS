@@ -55,6 +55,8 @@ h4 {
 h5 {
   font-size: 18px;
   line-height: 28px;
+  text-transform: uppercase;
+  margin: 0 auto;
 }
 
 /* Section setup */
@@ -62,6 +64,7 @@ h5 {
 .section{
   max-width: 1440px;
   margin: 0 auto;
+  padding: 64px 0;
 }
 
 .section .section__title{
