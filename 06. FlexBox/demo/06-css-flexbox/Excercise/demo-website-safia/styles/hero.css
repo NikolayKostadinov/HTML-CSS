@@ -41,4 +41,6 @@
     grid-template-rows: 96px;
     justify-items: center;
     align-items: center;
+    width: 100%;
+    gap: 20px;
 }
