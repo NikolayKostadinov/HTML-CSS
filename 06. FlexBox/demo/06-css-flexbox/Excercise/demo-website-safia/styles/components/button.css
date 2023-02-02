@@ -1,6 +1,6 @@
 .btn {
-    --btn-color-bg: var(--clr-neutral-600);
-    --btn-color-text:var(--clr-white);
+  --btn-color-bg: var(--clr-neutral-600);
+  --btn-color-text: var(--clr-white);
   border: none;
   background-color: var(--btn-color-bg);
   color: var(--btn-color-text);
@@ -10,16 +10,16 @@
 }
 
 .btn:hover {
-    --btn-color-bg: var(--clr-white);
-    --btn-color-text:(--clr-neutral-600);
+  --btn-color-bg: var(--clr-white);
+  --btn-color-text: (--clr-neutral-600);
 }
 
 .btn--primary {
-    --btn-color-bg: var(--clr-primary-600);
-    --btn-color-text:var(--clr-white);
-  }
-  
-  .btn--primary:hover {
-    background-color: var(--clr-white);
-    color: var(--clr-primary-600);
-  }
+  --btn-color-bg: var(--clr-primary-600);
+  --btn-color-text: var(--clr-white);
+}
+
+.btn--primary:hover {
+  background-color: var(--clr-white);
+  color: var(--clr-primary-600);
+}

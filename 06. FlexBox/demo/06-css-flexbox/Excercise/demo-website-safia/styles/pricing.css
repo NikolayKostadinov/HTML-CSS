@@ -1,6 +1,7 @@
 #pricing .pricing__row {
   width: calc(100% - 2 * var(--page-px-mini));
   margin: 0 auto;
+  margin: 0 auto;
   display: flex;
   gap: 40px;
   align-items: flex-end;
