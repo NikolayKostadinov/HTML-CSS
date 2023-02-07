@@ -153,3 +153,44 @@ header img {
 #picture img{
     object-fit: fill;
 }
+
+#bridge{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Bridge */
+
+#bridge img{
+    max-width: 50%;
+    max-width: 50%;
+}
+
+#bridge .content{
+    width: 35.5%;
+}
+
+#galery .galery__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 100%;
+    
+}
+
+#galery.content__wrapper{
+    position:relative;
+}
+
+#galery img{
+    width: 100%;
+}
+
+#galery img.over{
+    position: absolute;
+    bottom: 64px;
+    width: 55%;
+    margin: 0 auto;
+}
+
