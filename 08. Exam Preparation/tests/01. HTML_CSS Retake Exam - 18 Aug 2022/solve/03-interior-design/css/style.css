@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url(reset.css);
+
+:root {
+  --clr-dark-brown: #9b928a;
+  --clr-light-brown: #c9c7c6;
+  --clr-quotation:#8c8581;  
+  --clr-text-black: #191818;
+  --clr-bg-main:#f2f0f3;
+  --clr-bg-aside:#bab1ad;
+  --clr-bg-green:#67784d;
+  --clr-white: #fff;
+  --pad-section: 10rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding-inline: 8rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  "head head"
+  "main aside"
+  "foot aside";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Abril Fatface", cursive;
+}
+
+/* Utility */
+
+.accent{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Header */
+.header{
+  width: 100%;
+  height: 130vh;
+  background-image: url('../image/image.jpg');
+  background-position: 25% 50%; ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 4rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  grid-area: head;
+}
+
+.header .company{
+  max-width: 25%;
+  -webkit-box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.37);
+  -moz-box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.37);
+  box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.37);
+  padding:  2rem 1.5rem;
+  position: absolute;
+  top:2.5rem;
+  left: 4rem;
+}
+
+.header .company .title{
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.header .company .delimiter{
+  background-color: var(--clr-white);
+  height:3px;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+.header .company .company-name{
+  font-size: 1.5rem;
+}
+
+.quote{
+  background: rgb(155,146,138);
+  background: linear-gradient(90deg, rgba(155,146,138,1) 0%, rgba(201,199,198,1) 100%);
+  max-width: 27%;
+  padding: 5rem 1.5rem 2rem 1.5rem;
+  text-align: right;
+  -webkit-box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.37);
+  -moz-box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.37);
+  box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.37);
+}
+
+.quote .quotation{
+  color: var(--clr-quotation);
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 4rem;
+  line-height: 1rem;
+}
+
+.quote .desc{
+  color: var(--clr-white);
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 1.25rem;
+}
+
+/* main */
+
+main{
+  grid-area: main;
+  background-color: var(--clr-bg-main);
+  padding: 6rem;
+}
+
+ h2.title{
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.service{
+  margin-bottom: 2rem;
+}
+
+.service .desc{
+  font-size: 1.5rem;
+}
+
+.service .desc .bullet{
+  background-color: var(--clr-text-black);
+  color: var(--clr-white);
+  font-size: .8rem;
+  line-height: 1rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+/* Aside */
+aside{
+  grid-area: aside;
+  background-color: var(--clr-bg-aside);
+  padding: 4rem 2rem;
+}
+
+.option .option__title{
+  font-weight: 100;
+  font-size: 6rem;
+  color: var(--clr-white);
+}
+
+.option .desc {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.option:not(:last-of-type) .desc {
+  margin-bottom: 7rem;
+}
+
+/* Footer */
+footer {
+  grid-area: foot;
+  background-color: var(--clr-bg-main);
+  padding-inline: 8rem;
+  padding-bottom: 3rem;
+}
+
+footer .title{
+  margin-bottom: unset;
+}
+
+footer .delimiter{
+  height: 2px;
+  width: calc(100% + 16rem);
+  margin-left: -8rem;
+  background-color: var(--clr-text-black);
+  margin-bottom: 2rem;
+}
+
+
+footer .accent{
+  font-style: italic;
+}
+
+footer .attrs{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+ margin-bottom: 3rem;
+}
+
+footer .attr{
+  font-size: 1.5rem
+}
+
+footer .email{
+  background-color: var(--clr-bg-aside);
+  padding: 1rem 2rem;
+  width: 55%;
+  border: none;
+  border-radius: 6px;
+  margin-right: 1rem;
+}
+
+footer .email::placeholder{
+  color: white;
+  font-size: 1.25rem;
+}
+
+footer .submit{
+  background-color: var(--clr-bg-green);
+  color: var(--clr-white);
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+}
+
+
