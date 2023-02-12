@@ -108,6 +108,10 @@ header .logo-wrapper{
   color: var(--clr-btn-text);
 }
 
+.btn-primary:hover{
+	background-color: var(--clr-white);
+}
+
 #section2{
   background: var(--section-gradient);
   padding: 2rem;
