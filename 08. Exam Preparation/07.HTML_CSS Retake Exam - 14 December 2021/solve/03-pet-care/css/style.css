@@ -40,6 +40,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position:sticky;
+  top: 0;
+  z-index:1;
+  background-color: var(--clr-white);
 }
 
 .main-nav ul {
@@ -83,7 +87,6 @@ header {
   background-position: center;
   background-size: 100% 100%;
   position: relative;
-
   margin-bottom: 10rem;
 }
 

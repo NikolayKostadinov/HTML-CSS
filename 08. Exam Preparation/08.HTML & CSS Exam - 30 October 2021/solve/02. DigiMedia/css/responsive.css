@@ -1,0 +1,115 @@
+@media screen and (max-width: 600px) {
+  .hero img {
+    display: none;
+  }
+
+  .navbar .navbar-brand {
+    text-align: center;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .hero h1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .container-fluid .hero,
+  .container-fluid .container {
+    text-align: center;
+  }
+
+  .container {
+    padding-inline: 0;
+  }
+
+  article.container .hero-btns {
+    margin-bottom: 6rem;
+  }
+
+  .hero-btns a {
+    display: block;
+    max-width: 60%;
+    font-size: 1.2rem;
+    margin-inline: auto;
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .hero-btns.service-btn {
+    margin-bottom: 6rem;
+  }
+
+  .hero-btns.service-btn a {
+    font-size: 1.5rem;
+  }
+
+  .row{
+    flex-direction: column;
+   
+  }
+
+  .col-sm-6{
+    max-width: unset;
+    margin-bottom: 4rem;
+    text-align: left;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  .services p{
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 10rem;
+    color: #314584;
+  }
+
+  .col-sm-12{
+    margin-bottom: 4rem;
+  }
+
+  h5{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .about{
+    margin-bottom: 4rem;
+  }
+   .about p{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    color: #314584;
+  }
+
+  input::placeholder,
+  textarea::placeholder{
+    font-size: 1.5rem;
+  }
+
+  .hero-btns.contact-btn{
+    display: none;
+  }
+
+  footer h3{
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-bottom: 2rem;
+  }
+  .contact-nav li{
+    display: block;
+  }
+}
+
