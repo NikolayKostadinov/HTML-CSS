@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@200;300;400;600;700&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url(reset.css);
+
+:root {
+  --clr-blue: #44a9f8;
+  --clr-blue-light: #e3f3fd;
+  --clr-white: #fff;
+  --clr-black: #000;
+
+  --background-image: url("../image/image1.png");
+  --box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.64);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+section{
+  padding: 4rem 6rem;
+  max-width: 1400px;
+  margin-inline: auto;
+  display: flex;
+  gap:4rem;
+}
+
+.panel{
+  flex-basis: 50%;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.57);
+}
+
+.left{
+  background-color: var(--clr-blue-light);
+}
+
+.left .title{
+  margin-bottom:1rem
+}
+
+.left ul li:not(:last-child){
+  margin-bottom: .75rem;
+}
+
+.left ul li i{
+  font-weight: bold;
+  color: var(--clr-blue);
+  margin-right: 0.5rem;
+}
+
+.right{
+  border:5px solid var(--clr-blue);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:2rem
+}
+
+.accent{
+  font-size: 3rem;
+  color: var(--clr-blue);
+}
+
+.right .desc{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.btn{
+  background-color: var(--clr-blue);
+  color: var(--clr-white);
+  border: none;
+  padding: 0.5rem 3rem;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+.btn{
+  box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.57);
+}
+
+
+
