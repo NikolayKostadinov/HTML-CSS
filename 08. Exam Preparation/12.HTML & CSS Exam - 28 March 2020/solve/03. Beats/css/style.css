@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url(reset.css);
+
+:root {
+  --clr-red: #ff0000;
+  --clr-white: #fff;
+  --clr-grey: #9d9d9d;
+  --clr-give-live: #2e2e2e;
+  --clr-black: #000; 
+  --clr-bg-grey:#fbfcff;
+  --clr-bg-grey-dark:#575757;
+  --clr-bg-grey-fourth:#dadada;
+
+
+  --background-image:  url("../image/image1.png");
+  --box-shadow: 5px 5px 10px -3px rgba(0, 0, 0, 0.57);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2,
+h3,
+.upper{
+  text-transform: uppercase;
+}
+
+/* Utility */
+.container{
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.section6040,
+.section5050{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 6rem;
+}
+
+.section6040 .left{
+  flex-basis: 40%;
+  padding-right: 2rem;
+}
+
+.section6040 .right{
+  flex-basis: 60%;
+  display: flex;
+  justify-content: end;
+}
+
+.section5050 .left{
+  flex-basis: 50%;
+}
+
+.section5050 .right{
+  flex-basis: 50%;
+  padding-right: 2rem;
+}
+
+.img-wrapper img{
+  width: 100%;
+}
+
+.btn{
+  text-transform: uppercase;
+  background-color: var(--clr-red);
+  color: var(--clr-white);
+  padding: .75rem 3rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+/* header */
+header{
+  padding-block: 2rem;
+}
+header nav ul {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.nav__link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--clr-grey);
+}
+
+/* first */
+#first{
+  height: calc(100vh - 4rem);
+}
+#first .left .title{
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+#first .left .desc{
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#first img{
+  width: 80%;
+}
+
+#first .right{
+  padding-block: 4rem ;
+}
+
+
+/* second */
+#second{
+  background-color: var(--clr-bg-grey);
+}
+#second .title{
+  text-align: right;
+  padding-right: 6rem;
+  margin-bottom: 6rem;
+}
+
+#second .title h2{
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 8rem;
+}
+
+#second .title h3 .accent{
+  font-weight: normal;
+}
+
+#second .desc{
+  font-size: 1.55rem;
+  padding-right: 2rem ;
+  margin-bottom: 4rem;
+}
+
+.price-wrapper{
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  align-items: center;
+}
+
+#second .price{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* third */
+#third{
+  background-color: var(--clr-bg-grey-dark);
+  padding: 4rem 4rem;
+  text-align: center;
+}
+
+#third .title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+#third .title h2{
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+#third a{
+  color: var(--clr-white);
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Fourth */
+#fourth{
+  background-color: var(--clr-bg-grey-fourth);
+  padding-block: 0;
+}
+
+#fourth .left img{width: 100%;}
+
+#fourth .right{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+
+#fourth .right .title{
+  padding-left: 6rem;
+  text-align: left;
+}
+
+#fourth .right .title h2{
+  font-size: 8rem;
+  line-height: 9rem;
+  letter-spacing: -.75rem;
+  color: var(--clr-give-live);
+}
+
+#fourth .right .title h4{
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: -.25rem;
+  color: var(--clr-give-live);
+}
+
+#fourth .right .title h4 strong{
+  color: var(--clr-red);
+}
+
+/* Footer */
+footer{
+  text-align: center;
+  padding-block: 3rem;
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
