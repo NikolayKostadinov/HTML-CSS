@@ -1,30 +1,9 @@
-# SoftUni-HTML-CSS-Sept-2022
+# HTML-CSS
+Целта на курса "HTML & CSS" е да положи основни знания по уеб технологии и по-конкретно запознаване с HTML5 и CSS3. Придобиват се начални знания в уеб разработката, уеб браузъри, инструменти за HTML/CSS/DOM разработка и се развиват практически умения за използване на езика за описание на уеб съдържание (HTML) и езика за стилизиране на уеб съдържание (CSS). Изучават се основните HTML тагове, параграфи, списъци, таблици, форми, контроли и таговете за семантичен HTML. Набляга се на основните CSS селектори и стилове, работа с класове, презентационни правила, правила за позициониране и изглед (layout) в CSS. Покриват се последните новости на HTML5 и CSS3 стандарта. Курсът набляга на практически упражнения с HTML и CSS, чрез които ви въвлича в реални проекти за изработка на уеб страници, имплементация на фрагменти от сайтове и създаване на цялостни модерни уеб сайтове с добра визия, съвременна структура и мобилна поддръжка.
 
-Course link: [HTML & CSS - септември 2022](https://softuni.bg/trainings/3855/html-and-css-september-2022)
-
-Този проект е създаден с цел улеснено споделяне на работните материали от курса на СофтУни HTML & CSS - септември 2022. Всички материали, които се качват тук, ще бъдат достъпни и от самата страница на курса, разделени по теми. Допълнително тук може да намерите и ресурси, които споделяме и обсъждаме по време на лекциите.
-
-
-## FAQ
-
-### Каква програма/IDE ще използваме по време на курса?
-На всички занятия ще се използва [VS Code](https://code.visualstudio.com/), но всеки един от вас е свободен да използва други програми според уменията и вкуса му. Целта е да можете удобно и лесно да пишете код, да се упражнявате и да покривате задачите и домашното от курса.
-
-### Как си подредихте кода? Какво направихте да изглежда по този начин? Какво натиснахте, за да отворите това меню?
-Ето някои от най-използваните ми клавишни комбинации
-- Форматиране на кода - `Shift + Alt + F` [How do you format code in Visual Studio Code (VSCode)?](https://stackoverflow.com/questions/29973357/how-do-you-format-code-in-visual-studio-code-vscode)
-- Отваряне директно на файлове - `Ctrl+P` / `Ctrl+Shift+P` - [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette)
-- `Emmet` за автоматизирано изписване на код - [Use Emmet to up your HTML game](https://www.youtube.com/watch?v=EhRPdUv1ZrA)
-
-Генерално съветвам да погледнете страницата [User Interface](https://code.visualstudio.com/docs/getstarted/userinterface), ако нямате особено много опит с VS Code.
-
-
-
-### Какви extention ползвате?
-Както вече упоменахме ще използваме [VS Code](https://code.visualstudio.com/), който поддържа [extentions](https://code.visualstudio.com/docs/editor/extension-marketplace). Няма ограничение какво и как ще използвате, но за да отговоря на въпросите, ето списък на екстеншъните, които имам инсталирани, и които може да повлияят на писането на код по време на курса.
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) * Това ще се ползва активно по време на курса!
-- [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
-- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+# Придобити умения
+- Изграждане на базови уеб страници
+- Възможност за създаване на статични уеб страници
+- Стилизиране на уеб сайтове със CSS
+- Създаване на адаптивен (responsive) уеб дизайн
+- Създаване на съвременни уеб сайтове
